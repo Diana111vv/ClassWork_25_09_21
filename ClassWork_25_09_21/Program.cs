@@ -50,6 +50,8 @@ namespace ClassWork
             {
                 Console.WriteLine("Вы нарушаете правила, введите трёхзначное число");
             }
+            
+            Console.WriteLine();
 
             Console.WriteLine("Task 2");
             Console.WriteLine("Введите размер форточки(a и b) в сантиметрах");
@@ -71,6 +73,8 @@ namespace ClassWork
                 Console.WriteLine("Вася не сможет просунуть голову в форточку");
             }
 
+            Console.WriteLine();
+
             Console.WriteLine("Task 3");
             Console.WriteLine("Введите число: ");
             number = Convert.ToInt32(Console.ReadLine());
@@ -85,6 +89,8 @@ namespace ClassWork
                 case 7: Console.WriteLine("Воскресенье"); break;
                 default: Console.WriteLine("ERROR"); break;
             }
+
+            Console.WriteLine();
 
             Console.WriteLine("Task 4");
             Console.WriteLine("Введите число");
@@ -108,6 +114,8 @@ namespace ClassWork
                 }
             }
 
+            Console.WriteLine();
+
             Console.WriteLine("Task 5");
             radius = 6370;
             Console.WriteLine("Радиус Земли = 6370 км");
@@ -115,6 +123,8 @@ namespace ClassWork
             double high = Convert.ToDouble(Console.ReadLine());
             double distance = Math.Sqrt((radius + high) * (radius + high) - (radius * radius));
             Console.WriteLine("Расстояние до линии горизонта = " + distance);
+
+            Console.WriteLine();
 
             Console.WriteLine("Task 6");
             Console.WriteLine("Введите число n");
@@ -124,6 +134,8 @@ namespace ClassWork
             {
                 Console.WriteLine($"{n}*{i} = {n * i}");
             }
+
+            Console.WriteLine();
 
             Console.WriteLine("Task 7");
             Console.WriteLine("Введите числа");
@@ -165,6 +177,8 @@ namespace ClassWork
                 }
             }
 
+            Console.WriteLine();
+
             Console.WriteLine("Task 8");
             int[] Numbers = new int[10];
             Console.WriteLine("Введите последовательность из 10 чисел");
@@ -184,6 +198,8 @@ namespace ClassWork
                     Console.WriteLine("Возрастающая последовательность!");
                 }
             }
+
+            Console.WriteLine();
 
             Console.WriteLine("Task 9");
             summ = 0;
@@ -205,6 +221,8 @@ namespace ClassWork
                 count++;
             }
             Console.WriteLine(summ);
+
+            Console.WriteLine();
 
             Console.WriteLine("Task 10");
             summ = 0;

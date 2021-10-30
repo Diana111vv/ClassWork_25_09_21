@@ -97,7 +97,6 @@ namespace Homework
             Console.WriteLine("Task 2.1");
             double summ = 0;
             number = 1;
-            int temp = 0;
             for (int i = 0; i < 9; i++)
             {
                 summ += number;
@@ -111,7 +110,7 @@ namespace Homework
             int stage = 100;
             double distance = 0;
             summ = 0;
-            temp = 1;
+            int temp = 1;
             double way = 1;
             bool forward = true;
             for (int i = 0; i < stage; i++)
